@@ -10,7 +10,7 @@ const OurService = () => {
         {OurServiceData.map(({id, imgURL, title, description}) => (
           <div key={id} className="border border-primary-600">
             <img src={imgURL} alt={title} />
-            <div className="mt-6 p-4 space-y-4">
+            <div className="mt-6 p-4 space-y-4 text-primary-950">
               <h2 className="font-bold text-xl">{title}</h2>
               <p>{description}</p>
             </div>

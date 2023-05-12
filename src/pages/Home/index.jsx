@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar";
 import OurService from "./OurService";
+import Quotation from "./Quotation";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
       </header>
 
       <OurService/>
+      <Quotation/>
     </div>
   );
 };
