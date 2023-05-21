@@ -13,8 +13,8 @@ const About = () => {
         </div>
       </header>
       <div className="py-8 md:py-24 bg-primary-50">
-        <h2 className="font-bold text-3xl md:text-6xl text-center">
-          Embrace the Beauty of Nature: Discover Feel Nature
+        <h2 className="font-bold text-3xl md:text-5xl text-center">
+          Embrace the Beauty of Nature <br /> Discover Feel Nature
         </h2>
         <img
           className="w-full object-cover h-96 my-6 md:my-16"
