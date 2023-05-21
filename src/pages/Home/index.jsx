@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import AboutUs from "./AboutUs";
 import OurService from "./OurService";
@@ -34,6 +35,7 @@ const Home = () => {
       <Quotation/>
       <AboutUs/>
       <Question/>
+      <Footer/>
     </div>
   );
 };
